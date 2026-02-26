@@ -4,6 +4,7 @@ namespace MyWebApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+
 public class DemoDataController : ControllerBase
 {
     private static readonly string[] Summaries =
